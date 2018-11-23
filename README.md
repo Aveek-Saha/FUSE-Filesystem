@@ -10,7 +10,7 @@ From the [official repository](https://github.com/libfuse/libfuse)
 # Installing FUSE
 For Ubuntu
 ```
-sudo apt-get install libfuse-dev
+$ sudo apt-get install libfuse-dev
 ```
 
 
@@ -18,18 +18,18 @@ sudo apt-get install libfuse-dev
 
 Clone this repository
 ```
-git clone https://github.com/Aveek-Saha/FUSE-Filesystem.git FS
+$ git clone https://github.com/Aveek-Saha/FUSE-Filesystem.git FS
 ```
 
 cd into the directory and create a mount point
 ```
-cd FS
-mkdir mountpoint
+$ cd FS
+$ mkdir mountpoint
 ```
 Complile and run FS.c
 ```
-gcc FS.c -o FS `pkg-config fuse --cflags --libs`
-./ FS - f path/ to/ mountpoint
+$ gcc FS.c -o FS `pkg-config fuse --cflags --libs`
+$ ./ FS - f path/ to/ mountpoint
 ```
 Change your current working directory to ```mountpoint``` and use the file system.
 
