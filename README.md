@@ -51,6 +51,7 @@ This project was a team effort by
 
 | Name | GitHub Profile |
 |:---:|:---:|
-|  Arvind Srinivasan | [arvindsrinivasan] (https://github.com/arvindsrinivasan) |
-|  Aprameya Bharadwaj | [aprameyabharadwaj] (https://github.com/aprameyabharadwaj) |
-|  Anish Kasi | [anishkasi] (https://github.com/anishkasi) |
+|  Arvind Srinivasan | [arvindsrinivasan](https://github.com/arvindsrinivasan) |
+|  Aprameya Bharadwaj | [aprameyabharadwaj](https://github.com/aprameyabharadwaj) |
+|  Anish Kasi | [anishkasi](https://github.com/anishkasi) |
+|  Aveek Saha | [aveek-saha](https://github.com/aveek-saha) |
