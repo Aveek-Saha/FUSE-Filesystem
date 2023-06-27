@@ -227,7 +227,7 @@ filetype * filetype_from_path(char * path){
 				}
 			}
 			if(flag == 0)
-				eturn NULL;
+				return NULL;
 		}
 		else{
 			strcpy(curr_folder, path_name);
@@ -580,7 +580,7 @@ int myread(const char *path, char *buf, size_t size, off_t offset,struct fuse_fi
 	else{
 		char * str = malloc(sizeof(char)*1024*(file -> blocks));
 
-		printf(":%d:\n", file->size);
+		printf(":%ld:\n", file->size);
 		strcpy(str, "");
 		int i;
 		for(i = 0; i < (file -> blocks) - 1; i++){
