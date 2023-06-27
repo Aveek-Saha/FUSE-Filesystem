@@ -227,7 +227,7 @@ filetype * filetype_from_path(char * path){
 				}
 			}
 			if(flag == 0)
-				eturn NULL;
+				return NULL;
 		}
 		else{
 			strcpy(curr_folder, path_name);
